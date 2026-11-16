@@ -346,3 +346,8 @@
 .divyapath-dashboard-screenshot{display:block;width:100%;height:auto;aspect-ratio:1665 / 945;object-fit:contain;object-position:center;background:#080e18}
 .divyapath-preview-caption{display:block;padding:8px 11px;border-top:1px solid var(--line);font:8px var(--mono);letter-spacing:.11em;color:var(--muted2);background:#0d1722}
 @media(max-width:700px){.divyapath-preview-caption{font-size:7px;padding:7px 9px}}
+/* Fallback: keep all portfolio content visible */
+.reveal {
+  opacity: 1 !important;
+  transform: none !important;
+}
